@@ -1,0 +1,245 @@
+<html>
+<head>
+<title>mypage</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<style>
+    .navbar{
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color: #5E4485;
+      color: #FFF;
+      padding: 1% 0;
+      font-size: 1.2em;
+      border: 0;
+    }
+    .navbar-brand{
+      float: left;
+      min-height: 55px;
+      padding: 0 15px 5px;
+    }
+    .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
+        color: #FFF;
+        background-color: #5E4485;
+    }
+    .navbar-inverse .navbar-nav li a {
+        color: #D5D5D5;
+    }
+    .container{
+        margin: 4% auto;
+    }
+     .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+    #icon{
+        max-width: 200px;
+        margin: 1% auto;
+    }
+    footer {
+        width: 100%;
+        background-color: #5E4485;
+        padding: 5%;
+        color: #FFF;
+    }
+    .fa{
+        padding: 15px;
+        font-size: 30px;
+        color: #FFF;
+    }
+    .fa:hover{
+        color: #D5D5D5;
+        text-decoration: none
+    }
+    @media(max-width:900px) {
+        .fa {
+            font-size: 20px;
+            padding: 10px;
+        }
+    }
+    @media(max-width:600px){
+        .carousel-caption{
+            display: none;
+        }
+    }
+   
+    #icon {
+        max-width: 150px;
+    }
+    h2{
+        font-size: 1.7em;
+    }
+        
+</style>   
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark ">
+        <a class="navbar-brand" href="#"><img src="icc2.jpg"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Teams</a>
+                </li>    
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li> 
+            </ul>
+        </div>
+    </nav>
+    
+ <div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="1.jpg" alt="Los Angeles" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>WORLD CUP TROPHY</h3>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="2.jpg" alt="Chicago" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>INDIA</h3>
+        <p>2011 world cup</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="3.jpg" alt="New York" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>ENGLAND</h3>
+        <p>1983 world cup</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+    
+    <div class="container text-center">
+        <h2>What We're Using</h2>
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="C:\Users\Rajendra\Desktop\project\img\html5.png" id="icon">
+                <h4>HTML5</h4>
+            
+            </div>
+             <div class="col-sm-4">
+                <img src="C:\Users\Rajendra\Desktop\project\img\bootstrap.png" id="icon">
+                <h4>Bootstarp</h4>
+            
+            </div>
+             <div class="col-sm-4">
+                <img src="\C:\Users\Rajendra\Desktop\project\img\css3.png" id="icon">
+                <h4>CSS3</h4>
+            
+            </div>
+        
+        </div>
+    </div>    
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h4><div class="spinner-grow text-dark"></div>12th edition of the Cricket World Cup</h4>
+                <p>The format for the tournament will be a single group of 10 teams, with each team playing the other nine once, and the top four at the end of the group phase progressing to the semi-finals. The 10-team tournament has gained criticism due to the lack of Associate teams in the tournament. Given the increase of the Test-playing nations from 10 to 12, with the admission of Ireland and Afghanistan in June 2017, it will be the first World Cup to be contested without all of the Test playing nations being present, and after the elimination of all the Associate teams at the qualifying tournament, this will be also be the first World Cup to feature no Associate members.</p>
+                <p>Following the 2019 Pulwama attack, several former Indian players and the Board of Control for Cricket in India (BCCI) called for the boycott of the group match fixture between India and Pakistan, wanting to ban the Pakistan cricket team from playing in the tournament. However, after conducting a press meet in Dubai, the International Cricket Council (ICC) rejected the BCCI's statement regarding banning Pakistan from the World Cup and assured that the scheduled match will go ahead as planned despite the ongoing standoff between the two nations.</p>
+            </div>                   
+
+            <div class="col-md-6">
+                <img src="about.png" class="img-responsive">
+            </div>    
+            
+        </div>
+    </div>   
+    
+     <div class="container">
+        <div class="row">
+            <div class="col-6">
+              <h4> <div class="spinner-grow text-dark"></div>India</h4>
+                <p>India, led by Virat Kohli, will be one of the favourites to lift the trophy, though hosts England and Australia are likely to offer a stiff challenge to India's charge. All eyes will be on the crucial No 4 slot in the middle order. India have tried multiple players on that spot since 2015 World Cup, but none has been able to make that No 4 place his own.Kedar Jadhav, MS Dhoni and Hardik Pandya form the backbone of the middle-order, but India will rely heavily on their top three of Rohit Sharma, Shikhar Dhawan and skipper Virat Kohli to do the bulk of the scoring.India will open their campaign against South Africa on 6 June.</p>
+                
+            </div>                   
+
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+                <img src="ind2.jpg" class="img-responsive">
+            </div> 
+            <div class="col-6">
+                <h4><div class="spinner-grow text-dark"></div>Australia</h4>
+                <p>Australia captain Aaron Finch believes David Warner will enter this year's World Cup desperate to prove himself as the disgraced batsman prepares to rejoin his teammates after a ball-tampering ban.Warner has been in red-hot form in the India Premier League after completing a 12-month suspension for cheating, averaging 69.20 in 12 innings, including a century and eight fifties.</p>
+                
+            </div> 
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+                <img src="aus2.jpg" class="img-responsive">
+            </div> 
+            
+        </div>
+    </div>   
+    
+    <div class="container">
+        <div class="row">
+            <div class="spinner-grow text-info"></div>
+            <h4><a href="#hidden" data-toggle="collapse">Players to Watch Out !!</a></h4>
+            <div class="spinner-grow text-info"></div>
+                <div id="hidden" class="collapse">
+                    <p><b><mark>1] MS DHONI</mark></b> (India):-
+
+The 37-year-old MS Dhoni is at the last stretch of his career having captained India to three ICC trophies is now set to play under captain Virat Kohli in the World Cup 2019. Ranchi-born Dhoni made his ODI debut against Sri Lanka on December 2, 2005 and since then he has scored 10415 runs in 338-ODI appearance for the country. Dhoni, who is a right-handed batsmen, is famous for his trademark helicopter shot and fast hand behind the stumps. MS Dhoni, who has scored over 10000 runs at an average of 50.8 and a strike rate of 87.69, has a highest ODI score of 183. Dhoni has 10 centuries and 70 half-centuries to his name.</p>
+                    <p><b><mark>2] Chris Gayle (West Indies)</mark></b>:-
+                    
+‘The Universe Boss’ has redefined the art of batsmanship in all formats of the game.The first player to score 100s in all three formats, Gayle become the first man ever to score a double century at a Cricket World Cup when he smashed 138-ball double hundred against Zimbabwe in 2015.
+Famed for his ability to destroy a bowling attack with his raw power and blistering strokeplay, Gayle is a crowd puller and is sure to pack stadiums during the tournament.</p>
+                    <p><b><mark>3] Joe Root (England)</mark></b>:-
+                    
+ He is currently ranked the 4th best ODI batsman in the world.The Sheffield-born player has played 121 ODIs in which he has scored 4946 runs at an average of 51.52 and strike rate 86.44. His performance against India is also noteworthy. In the 15 innings Root batted in against the Men in Blue, he amassed 684 runs at an average of 57 and strike rate 85.07. </p>    
+            </div>                   
+
+            
+        </div>
+    </div>
+    
+    <footer class="container-fluid text-center">
+        <div class="row">
+            <div class="col-sm-4">
+                <h3>Contact Us:</h3>
+                <br>
+                <h4>Checkout out our address here</h4>
+            </div>
+            <div class="col-sm-4">
+                <h3>Connect</h3>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-youtube"></a>
+
+                </div>
+            <div class="col-sm-4">
+                <img src="img/bunny.png" class="icon">
+            
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
